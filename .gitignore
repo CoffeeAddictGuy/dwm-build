@@ -20,8 +20,8 @@ dwmblocks-async/build/
 dwmblocks-async/dwmblocks
 
 # === PATCHES / TEST FILES ===
-**/*.diff~
-**/*.patch~
+**/*.diff
+**/*.patch
 **/*.rej
 **/p1.rej
 **/*.orig
@@ -43,3 +43,5 @@ run-dwm-xephyr.sh
 # === MISC ===
 **/*.DS_Store
 **/*.cache
+**/*.clang*
+**/dmenu_path
