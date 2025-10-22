@@ -1,0 +1,46 @@
+# === GLOBAL BUILD ARTEFACTS ===
+*.o
+*.rej
+*.orig
+*.bak
+*.swp
+*.swo
+*.out
+*.log
+*.tmp
+*.dwo
+*.d
+
+# === BINARIES ===
+dwm/dwm
+dmenu/dmenu
+dmenu/dmenu_run
+dmenu/stest
+dwmblocks-async/build/
+dwmblocks-async/dwmblocks
+
+# === PATCHING / TEST FILES ===
+*.diff~
+*.patch~
+*.rej
+p1.rej
+*.orig
+*.backup
+
+# === BACKUPS ===
+config.def.h.bak
+config.h.backup
+config.h.old
+config.def.h.orig
+config.mk.orig
+config.def.h.rej
+drw.c.rej
+drw.h.rej
+
+# === XEPHYR TEST SCRIPTS ===
+run-dwm-xephyr.sh
+
+# === MISC ===
+*.DS_Store
+*.cache
+
